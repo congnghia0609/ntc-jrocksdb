@@ -1,6 +1,15 @@
 # ntc-jrocksdb
 ntc-jrocksdb is a module swapper java RocksDB
 
+## Maven
+```Xml
+<dependency>
+    <groupId>com.streetcodevn</groupId>
+    <artifactId>ntc-jrocksdb</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ## Usage
 ```java
 NRSerializer nrs = new NRSerializer();
