@@ -21,9 +21,9 @@ String key = "nghiatc";
 String value = "handsome";
 // Put Data
 conn.put(key, value);
+// Get Data
 String rs1 = conn.get(key);
 Assert.assertEquals(value, rs1);
-// Get Data
 String rs2 = nrs.deserializeString(conn.getByte(nrs.serializeString(key)));
 Assert.assertEquals(value, rs2);
 // Delete Data
